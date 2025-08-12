@@ -1,0 +1,12 @@
+chunk_size: 500  
+chunk_overlap: 300  
+embedding_model: bkai-foundation-models/vietnamese-bi-encoder  
+llm_model: vinai/PhoGPT-7B5-Instruct  
+vector_store_dir: data/processed/embeddings/chroma_db 
+data_raw_dir: data/raw  
+processed_chunks_dir: data/processed/chunks 
+outputs_summaries_dir: outputs/summaries
+outputs_qa_logs_dir: outputs/qa_logs 
+k_retrieval: 5  
+max_new_tokens: 512
+temperature: 0.0  
